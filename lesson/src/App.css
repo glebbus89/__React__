@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.event-card {
+  border: 1px solid #ccc;
+}
+
+.event-card-title {
+  color: red;
 }
