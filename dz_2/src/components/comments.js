@@ -9,7 +9,8 @@ function CommentsList () {
 
         function clickDelete(index) {
             const newComments = [...comments];
-            newComments.splice(index, 1);
+            newComments.filter((comment) => comment.id !== comments[index].id); 
+            // newComments.splice(index, 1);
             setComments(newComments);
         }
         
